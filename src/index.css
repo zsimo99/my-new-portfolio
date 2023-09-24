@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #08575a; /* Color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #05383a; /* Color of the handle */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #064042; /* Color on hover */
+}
+
+
+.animateHero{
+  animation: infinite 500ms ease-in show ;
+}
+
+.linkItem{
+  @apply p-2 block hover:text-[#309092] before:w-0 before:transition-[width] before:first-letter:duration-150 hover:before:w-10 before:h-1 before:content-[''] relative before:absolute before:bg-[#309092] before:top-full before:-translate-x-1/2 before:left-1/2 
+}
+.linkItem.active{
+  @apply before:w-10 text-[#309092] 
+}
+
+
+@keyframes show {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes move {
+  from {
+    transform: translate(-50px,-50px);
+  }
+  to{
+    transform: translate(-20px,-20px);
+  }
+}
+
+.image-tech{
+  @apply inline-block h-[30px] md:h-[40px] lg:h-[50px] xl:h-[60px] mx-5 md:mx-10 object-contain grayscale hover:grayscale-0 transition-[filter] duration-200
+}
+.img-tech-cont::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100%;
+  background-color: red;
+}
+
+.services{
+  @apply text-center max-sm:text-base text-xl font-semibold text-[#39bec0] cursor-pointer relative py-px
+}
+.services::before{
+  @apply w-0 h-1 bg-[#39bec0] bottom-0 left-0 content-[""] absolute transition-[width] duration-300
+}
+.services:hover::before{
+  @apply w-full
+}
+.projects > div:nth-child(even){
+  @apply md:flex-row-reverse
+}
+.projects > div:not(:last-of-type)::before{
+  @apply content-[""] w-1/3 h-1 bg-[#39bec0] bottom-0 left-1/2 -translate-x-1/2 absolute
+}
+.curve{
+  @apply absolute -bottom-[1px] left-0 z-50 fill-[#032324] max-sm:h-10 h-20 w-full
+}
+.image-shadow {
+  box-shadow: 5px 5px 20px 4px #309092,5px 5px 35px 10px #309092 ,5px 5px 10px 10px #309092 inset;
+}
+.hide{
+  @apply  opacity-0 translate-y-4 translate-x-4
+}
+.tech-shadow{
+  box-shadow: 0 0 60px 5px #276f70;
+}
+.slant{
+  @apply absolute top-[calc(100%-1px)] left-0 z-50  max-sm:h-10 h-20 w-full fill-[#0A4F51] rotate-180
+}
+/*  */
+
+
+
+
+
+
+
+
+.dot-spinner {
+  --uib-size: 80px;
+  --uib-speed: .9s;
+  --uib-color: #ffffff;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: var(--uib-size);
+  width: var(--uib-size);
+}
+
+.dot-spinner__dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.dot-spinner__dot::before {
+  content: '';
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  background-color: var(--uib-color);
+  transform: scale(0);
+  opacity: 0.5;
+  animation: pulse calc(var(--uib-speed) * 1.111) ease-in-out infinite;
+}
+
+.dot-spinner__dot:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.dot-spinner__dot:nth-child(2)::before {
+  animation-delay: calc(var(--uib-speed) * -0.875);
+}
+
+.dot-spinner__dot:nth-child(3) {
+  transform: rotate(90deg);
+}
+
+.dot-spinner__dot:nth-child(3)::before {
+  animation-delay: calc(var(--uib-speed) * -0.75);
+}
+
+.dot-spinner__dot:nth-child(4) {
+  transform: rotate(135deg);
+}
+
+.dot-spinner__dot:nth-child(4)::before {
+  animation-delay: calc(var(--uib-speed) * -0.625);
+}
+
+.dot-spinner__dot:nth-child(5) {
+  transform: rotate(180deg);
+}
+
+.dot-spinner__dot:nth-child(5)::before {
+  animation-delay: calc(var(--uib-speed) * -0.5);
+}
+
+.dot-spinner__dot:nth-child(6) {
+  transform: rotate(225deg);
+}
+
+.dot-spinner__dot:nth-child(6)::before {
+  animation-delay: calc(var(--uib-speed) * -0.375);
+}
+
+.dot-spinner__dot:nth-child(7) {
+  transform: rotate(270deg);
+}
+
+.dot-spinner__dot:nth-child(7)::before {
+  animation-delay: calc(var(--uib-speed) * -0.25);
+}
+
+.dot-spinner__dot:nth-child(8) {
+  transform: rotate(315deg);
+}
+
+.dot-spinner__dot:nth-child(8)::before {
+  animation-delay: calc(var(--uib-speed) * -0.125);
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
