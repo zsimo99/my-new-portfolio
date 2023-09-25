@@ -7,6 +7,7 @@ import houseMarket from "../assets/projects/houseMarket.png"
 import Promptobia from "../assets/projects/Promptobia.png"
 import dalle from "../assets/projects/dalle.png"
 import todozs from "../assets/projects/todozs.png"
+import rose from "../assets/projects/rose.png"
 
 export const projects = [
 
@@ -20,6 +21,15 @@ export const projects = [
     //     category: "wa",
     //     image: leon
     // },
+    {
+        title: "Rose Template",
+        link: "https://github.com/zsimo99/rose",
+        desc: "I've crafted a sleek and responsive website using HTML and Tailwind CSS. This project showcases my design and coding skills, combining clean HTML structure with the power of Tailwind CSS for a visually appealing and user-friendly experience. Explore the site to see my work in action.",
+        live: "https://zsimo99.github.io/rose/",
+        done: true,
+        category: "ui",
+        image: rose
+    },
     {
         title: "leon Template",
         link: "https://github.com/zsimo99/BasicWebTemplate-1",
