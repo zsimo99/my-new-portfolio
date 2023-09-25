@@ -3,8 +3,8 @@ import logo from "../assets/logo2.svg"
 const sections = [
     { id: "home", label: "Home" },
     { id: "aboutUs", label: "About Us" },
-    { id: "portfolio", label: "Portfolio" },
     { id: "services", label: "Services" },
+    { id: "portfolio", label: "Portfolio" },
     { id: "contact", label: "Contact" },
 ];
 
