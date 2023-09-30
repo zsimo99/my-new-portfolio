@@ -7,6 +7,7 @@ const sections = [
     { id: "portfolio", label: "Portfolio" },
     { id: "contact", label: "Contact" },
 ];
+// test 
 
 // eslint-disable-next-line react/prop-types
 const Header = ({ activeSection, show, setShow }) => {

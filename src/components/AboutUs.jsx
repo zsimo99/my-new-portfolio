@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 // import image from "../assets/about_us 1.svg";
-import video from "../assets/video/Last2.mp4"
+import video from "../assets/video/Video.mp4"
 import { DefaultPlayer as Video } from "react-html5video";
 import 'react-html5video/dist/styles.css'
 
@@ -26,7 +26,7 @@ const AboutUs = () => {
                         About Us:
                     </h2>
                     <p className="text-base text-start md:text-lg xl:text-xl md:text-justify font-medium text-white pl-4 lg:pl-10 hide duration-700 transition-[opacity,transform]">
-                        As an individual, I'm Mohamed, and I take great pride in crafting digital experiences that leave a lasting impact. With a keen eye for aesthetics and a passion for innovation, I transform concepts into captivating websites and powerful web applications. My commitment to quality and creativity has earned me a reputation for turning ideas into reality. Explore my portfolio to witness the expertise and dedication that define my work.                    </p>
+                        As an individual, I&apos;m Mohamed, and I take great pride in crafting digital experiences that leave a lasting impact. With a keen eye for aesthetics and a passion for innovation, I transform concepts into captivating websites and powerful web applications. My commitment to quality and creativity has earned me a reputation for turning ideas into reality. Explore my portfolio to witness the expertise and dedication that define my work.                    </p>
                 </div>
 
             </div>
