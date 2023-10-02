@@ -31,9 +31,9 @@ const AboutUs = () => {
 
             </div>
             <div className="container mx-auto p-4">
-                <a target="_blank" rel="noreferrer" href="https://www.fiverr.com/zakariami?source=gig_page" className=" mt-8 duration-700 transition-[opacity,transform] px-10 py-2 md:px-14 md:py-4 xl:px-16 xl:py-5 bg-slate-500 block w-fit ms-auto rounded-md text-2xl font-bold text-white bg-gradient-to-r to-[#309092] from-[#6CC6C8] relative z-0 hide">
+                <a target="_blank" rel="noreferrer" href="https://www.fiverr.com/mohamedzoraa" className=" mt-8 duration-700 transition-[opacity,transform] px-10 py-2 md:px-14 md:py-4 xl:px-16 xl:py-5 bg-slate-500 block w-fit ms-auto rounded-md text-2xl font-bold text-white bg-gradient-to-r to-[#309092] from-[#6CC6C8] relative z-0 hide">
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-md  opacity-0 hover:opacity-100 transition-opacity duration-200 w-full h-full bg-[#ffffff30] z-10" />
-                    Hire Us</a>
+                    Hire Me</a>
             </div>
         </section>
     );
