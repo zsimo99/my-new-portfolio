@@ -10,12 +10,16 @@ import { useEffect } from "react"
 
 
 // eslint-disable-next-line react/prop-types
-function Home({ load, section, show, setShow, setLoad }) {
+function Home({ load, section, setSection, show, setShow, setLoad }) {
     useEffect(() => {
+        // Reset to home section when component mounts
+        setSection("home")
+        window.scrollTo(0, 0)
+        
         setTimeout(() => {
             setLoad(false)
         }, 2000);
-    }, [setLoad])
+    }, [setLoad, setSection])
 
     return (
         <div className="overflow-hidden">

@@ -72,7 +72,7 @@ function App() {
       <Loader load={load} loader={loader} logo={logo} />
       <Router>
         <Routes>
-          <Route path="/" element={<Home section={section} show={show} setShow={setShow} load={load} setLoad={setLoad} />} />
+          <Route path="/" element={<Home section={section} setSection={setSection} show={show} setShow={setShow} load={load} setLoad={setLoad} />} />
           <Route path="/work" element={<Works load={load} setLoad={setLoad} />} />
         </Routes>
       </Router>
