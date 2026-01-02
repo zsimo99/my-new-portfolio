@@ -23,18 +23,18 @@ const Slider = ({images=[
   };
 
   return (
-      <div className={`relative h-full w-full   shadow-2xl `}>
+      <div className={`relative w-full h-full shadow-2xl`}>
       {/* Image */}
         <img
         src={images[currentIndex]}
         alt={`Slide ${currentIndex + 1}`}
-        className="w-full h-full bg-transparent object-contain "
+        className="w-full h-full bg-transparent object-contain  "
       />
 
       {/* Left Arrow */}
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 -left-12 lg:-left-0  transform -translate-y-1/2 bg-[#309092] bg-opacity-50 text-white  flex w-10 h-10 justify-center items-center rounded-2xl"
+        className="absolute top-1/2 left-0 lg:-left-0  transform -translate-y-1/2 bg-[#309092] bg-opacity-50 text-white  flex w-10 h-10 justify-center items-center rounded-2xl"
       >
         &#10094;
       </button>
@@ -42,7 +42,7 @@ const Slider = ({images=[
       {/* Right Arrow */}
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 -right-12 lg:-right-0 transform -translate-y-1/2 bg-[#309092] bg-opacity-50 text-white flex w-10 h-10 justify-center items-center rounded-2xl"
+        className="absolute top-1/2 right-0 lg:-right-0 transform -translate-y-1/2 bg-[#309092] bg-opacity-50 text-white flex w-10 h-10 justify-center items-center rounded-2xl"
       >
         &#10095;
       </button>

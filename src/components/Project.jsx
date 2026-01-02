@@ -39,11 +39,11 @@ const Project = ({
         <div
         //   className="fixed z-[1000] inset-0 flex items-center justify-center bg-b backdrop-blur-sm p-4"
         >
-          {loading && <div className="loader text-white">Loading...</div>}
+          {/* {loading && <div className="loader text-white">Loading...</div>} */}
           {/* <img className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl" src={image} onLoad={handleImageLoad} alt={title} />*/}
           {/* <button className="absolute z-50 top-6 right-6 text-white text-4xl hover:text-[#40dcdf] transition-colors" onClick={() => setSHowSlider(false)}>&times;</button>  */}
-          <div className="w-screen h-screen bg-black/50 fixed z-[100] top-0 left-0 flex items-center justify-center">
-            <div onLoad={()=>setLoading(false)} className="basis-3/4 h-2/3 " ref={sliderRef}><Slider images={images} /></div>
+          <div className="w-screen h-screen bg-black/50 fixed z-[100] px-6 top-0 left-0 flex items-center justify-center">
+            <div onLoad={()=>setLoading(false)} className="max-w-4xl w-full h-[600px] flex items-center" ref={sliderRef}><Slider images={images} /></div>
           </div> 
         </div>
       )}
