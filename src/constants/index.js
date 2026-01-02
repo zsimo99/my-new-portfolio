@@ -132,8 +132,9 @@ export const projects = [
     done: true,
     category: "wa",
     image: "https://res.cloudinary.com/zscloud/image/upload/v1767372731/portfolio/projects/blogzs/Untitled_design_kqn8mz.png",
-    images:["https://res.cloudinary.com/zscloud/image/upload/v1767372587/portfolio/projects/blogzs/blog-zs-dark_bhwwr2.png",
-        "https://res.cloudinary.com/zscloud/image/upload/v1767372587/portfolio/projects/blogzs/blog-zs_vja3sv.png",
+    images:[
+        "https://res.cloudinary.com/zscloud/image/upload/v1767377830/portfolio/projects/blogzs/blog-zs-dark_xwsg7h.png",
+        "https://res.cloudinary.com/zscloud/image/upload/v1767377831/portfolio/projects/blogzs/blog-zs_qfhy3i.png",
         "https://res.cloudinary.com/zscloud/image/upload/v1767373692/portfolio/projects/blogzs/blog-zs-phone_lqsrcf.png"
     ]
   },

@@ -43,7 +43,7 @@ const Project = ({
           {/* <img className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl" src={image} onLoad={handleImageLoad} alt={title} />*/}
           {/* <button className="absolute z-50 top-6 right-6 text-white text-4xl hover:text-[#40dcdf] transition-colors" onClick={() => setSHowSlider(false)}>&times;</button>  */}
           <div className="w-screen h-screen bg-black/50 fixed z-[100] px-6 top-0 left-0 flex items-center justify-center">
-            <div onLoad={()=>setLoading(false)} className="max-w-5xl w-full h-[400px] flex items-center" ref={sliderRef}><Slider images={images} /></div>
+            <div onLoad={()=>setLoading(false)} className="max-w-6xl w-full h-[400px] flex items-center" ref={sliderRef}><Slider images={images} /></div>
           </div> 
         </div>
       )}
