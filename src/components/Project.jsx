@@ -103,7 +103,7 @@ const Project = ({
           <div className="absolute -inset-2 bg-gradient-to-r from-[#309092] to-[#40dcdf] rounded-xl opacity-30 group-hover/img:opacity-50 blur transition-opacity duration-500" />
           <div className="relative overflow-hidden rounded-lg border-2 border-[#30909260] group-hover/img:border-[#40dcdf] transition-colors duration-300">
             <img
-              className="w-full aspect-video object-cover object-top group-hover/img:scale-105 transition-transform duration-500"
+              className="w-full h-full object-cover object-top group-hover/img:scale-105 transition-transform duration-500"
               src={image}
               alt={title}
             />
