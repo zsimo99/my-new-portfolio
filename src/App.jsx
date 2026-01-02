@@ -5,6 +5,7 @@ import Loader from "./components/Loader"
 import logo from "./assets/logo.png"
 import Home from "./pages/Home"
 import Works from "./pages/Works"
+import Dev from "./pages/Dev"
 
 
 
@@ -74,6 +75,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home section={section} setSection={setSection} show={show} setShow={setShow} load={load} setLoad={setLoad} />} />
           <Route path="/work" element={<Works load={load} setLoad={setLoad} />} />
+          <Route path="/dev" element={<Dev  />} />
         </Routes>
       </Router>
     </>
