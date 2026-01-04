@@ -71,7 +71,7 @@
 //     {
 //         title: "House Marketplace",
 //         link: "https://github.com/zsimo99/House-Marketplace",
-//         desc: "This dynamic application utilizes Firebase for its backend, allowing users to seamlessly list their houses for sale or rent. With an intuitive and user-friendly interface, individuals can easily upload property details, images, and pricing information. Prospective buyers and renters can then browse through available listings, making it a convenient platform for both property owners and seekers in the housing market.",
+//         desc: "This dynamic application utilizes Firebase for its backend, allowing users to seamlessly list their houses for sale or rent. With an intuitive and user-friendly interface, individuals can easily upload/r_40 property details, images, and pricing information. Prospective buyers and renters can then browse through available listings, making it a convenient platform for both property owners and seekers in the housing market.",
 //         live: "https://housemarketplacezsimo.netlify.app/",
 //         done: true,
 //         category: "wa",
@@ -127,18 +127,57 @@ export const projects = [
   {
     title: "BlogZs",
     link: "https://github.com/zsimo99/blog-zs-v2",
-    desc: "I'm thrilled to introduce DEVBlog - Empowering Developers to Connect and Collaborate! This project has been a labor of love, designed to create a vibrant hub where coding questions find quick answers, and developers discover a thriving community. With robust authentication, a user-friendly interface adaptable to your preferences, and upcoming chat functionality, DEVBlog promises to be the ultimate platform for all your coding needs. Join us and experience the passion and dedication that went into crafting this developer's haven!",
+    desc: "Blogzs is a modern, fully responsive social media platform where users create and explore meaningful blog and coding content, connect through ideas, and engage with posts through likes and comments across all devices.",
     live: "https://blog-zs-v2.vercel.app/",
     done: true,
     category: "wa",
-    image: "https://res.cloudinary.com/zscloud/image/upload/v1767372731/portfolio/projects/blogzs/Untitled_design_kqn8mz.png",
+    image: "https://res.cloudinary.com/zscloud/image/upload/v1767542007/portfolio/projects/blogzs/Untitled_design_nllstc.png",
     images:[
-        "https://res.cloudinary.com/zscloud/image/upload/v1767377830/portfolio/projects/blogzs/blog-zs-dark_xwsg7h.png",
-        "https://res.cloudinary.com/zscloud/image/upload/v1767377831/portfolio/projects/blogzs/blog-zs_qfhy3i.png",
-        "https://res.cloudinary.com/zscloud/image/upload/v1767373692/portfolio/projects/blogzs/blog-zs-phone_lqsrcf.png"
-    ]
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767377830/portfolio/projects/blogzs/blog-zs-dark_xwsg7h.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767377831/portfolio/projects/blogzs/blog-zs_qfhy3i.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767445751/portfolio/projects/blogzs/blog-zs-comments_j1j1dp.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767373692/portfolio/projects/blogzs/blog-zs-phone_lqsrcf.png"
+    ],
+    tech:["Nextjs","NextAuth","MongoDb","Tailwindcss"]
+  },
+  {
+    title: "House Marketplace",
+    link: "https://github.com/zsimo99/House-Marketplace",
+    desc: "A fully responsive platform where users can list, rent, or sell houses and properties, explore available listings, and connect easily with potential buyers or renters through a clean and user-friendly experience.",
+    live: "https://housemarketplacezsimo.netlify.app/",
+    done: true,
+    category: "wa",
+    image: "https://res.cloudinary.com/zscloud/image/upload/v1767542047/portfolio/projects/house%20market/housemarket-all_rgugna.png",
+    images:[
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767538052/portfolio/projects/house%20market/housemarket_lxgxnz.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767538053/portfolio/projects/house%20market/housemarket-mobile-home_wpmhg1.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767538036/portfolio/projects/house%20market/housemarket-mobile-offers_pweucz.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767538029/portfolio/projects/house%20market/housemarket-mobile-dashboard_tesgcm.png"
+    ],
+    tech:["React","Firebase","Swiper","Css"]
+  },
+   {
+    title: "Github Finder",
+    link: "https://github.com/zsimo99/github-finder-app",
+    desc: "A responsive web app that uses the GitHub API to search for users and display their profiles and repositories in a clean, beautiful interface built with DaisyUI.",
+    live: "https://github-finder-app-bay-delta.vercel.app/",
+    done: true,
+    category: "wa",
+    image: "https://res.cloudinary.com/zscloud/image/upload/v1767542028/portfolio/projects/github%20Finder/3_fqmjor.png",
+    images:[
+        "https://res.cloudinary.com/zscloud/image/upload/v1767539632/portfolio/projects/github%20Finder/github-finder-app-bay-delta.vercel.app__4_q079f6.png",
+        "https://res.cloudinary.com/zscloud/image/upload/v1767539609/portfolio/projects/github%20Finder/github-finder-app-bay-delta.vercel.app__ytktrh.png",
+        "https://res.cloudinary.com/zscloud/image/upload/v1767539523/portfolio/projects/github%20Finder/github-finder-app-bay-delta.vercel.app__2_vfbenl.png",
+        "https://res.cloudinary.com/zscloud/image/upload/v1767539524/portfolio/projects/github%20Finder/github-finder-app-bay-delta.vercel.app__1_xy0xlw.png",
+        "https://res.cloudinary.com/zscloud/image/upload/v1767539611/portfolio/projects/github%20Finder/github-finder-app-bay-delta.vercel.app__3_abp3vh.png",
+        "https://res.cloudinary.com/zscloud/image/upload/v1767539600/portfolio/projects/github%20Finder/github-finder-app-bay-delta.vercel.app__iPhone_XR_ieyvjq.png",
+        "https://res.cloudinary.com/zscloud/image/upload/v1767539643/portfolio/projects/github%20Finder/github-finder-app-bay-delta.vercel.app__iPhone_XR_1_sc9jjj.png"
+    ],
+    tech:["React","Github-Api","Tailwind","Daisyui"]
   },
 ];
+
+
 
 import ui from "../assets/icons/ui.svg"
 import wp from "../assets/icons/wp.svg"

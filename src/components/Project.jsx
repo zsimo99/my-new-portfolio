@@ -5,7 +5,7 @@ import Slider from "./Slider";
 
 const Project = ({
   nm,
-  project: { title, link, desc, live, image, images },
+  project: { title, link, desc, live, image, images ,tech},
 }) => {
   const [showSlider, setSHowSlider] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -43,7 +43,7 @@ const Project = ({
           {/* <img className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl" src={image} onLoad={handleImageLoad} alt={title} />*/}
           {/* <button className="absolute z-50 top-6 right-6 text-white text-4xl hover:text-[#40dcdf] transition-colors" onClick={() => setSHowSlider(false)}>&times;</button>  */}
           <div className="w-screen h-screen bg-black/50 fixed z-[100] px-6 top-0 left-0 flex items-center justify-center">
-            <div onLoad={()=>setLoading(false)} className="max-w-6xl w-full h-[400px] flex items-center" ref={sliderRef}><Slider images={images} /></div>
+            <div onLoad={()=>setLoading(false)} ref={sliderRef} className="flex-1 relative py-14 md:px-12 w-full  mx-auto max-w-4xl flex-grow bg-gradient-to-br h-[500px] from-[#114446]/90 to-[#032324]/90 shadow-2xl rounded-3xl shadow-[#0C5759]/50" ><Slider images={images} /></div>
           </div> 
         </div>
       )}
@@ -59,6 +59,9 @@ const Project = ({
         <p className="text-gray-400 leading-relaxed text-base lg:text-lg">
           {desc}
         </p>
+        <div className="flex gap-4 flex-wrap">
+            {tech.map((t,i)=><span className="text-sm block px-4 py-0.5 bg-gradient-to-l from-[#3FD9DC]/50 to-[#319496]/50 rounded-xl">{t}</span>)}
+        </div>
         <div className="flex items-center gap-6 pt-4">
           {link && (
             <a
@@ -103,7 +106,7 @@ const Project = ({
           <div className="absolute -inset-2 bg-gradient-to-r from-[#309092] to-[#40dcdf] rounded-xl opacity-30 group-hover/img:opacity-50 blur transition-opacity duration-500" />
           <div className="relative overflow-hidden rounded-lg border-2 border-[#30909260] group-hover/img:border-[#40dcdf] transition-colors duration-300">
             <img
-              className="w-full h-full object-cover object-top group-hover/img:scale-105 transition-transform duration-500"
+              className="w-full h-full object-cover object-center group-hover/img:scale-105 transition-transform duration-500"
               src={image}
               alt={title}
             />
