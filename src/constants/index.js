@@ -125,6 +125,32 @@
 // ]
 export const projects = [
   {
+    title: "Evenet Hive",
+    link: "https://github.com/zsimo99/EventHive",
+    desc: "Blogzs is a modern, fully responsive social media platform where users create and explore meaningful blog and coding content, connect through ideas, and engage with posts through likes and comments across all devices.",
+    live: "https://event-hive-one.vercel.app/",
+    done: true,
+    category: "wa",
+    image: "https://res.cloudinary.com/zscloud/image/upload/v1767631080/portfolio/projects/event-hive/Untitled_design_jjo5en.png",
+    images:[
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767631040/portfolio/projects/event-hive/event-hive-one.vercel.app__s0kdbi.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767631044/portfolio/projects/event-hive/event-hive-one.vercel.app__iPhone_SE_f0mu1b.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767631001/portfolio/projects/event-hive/event-hive-one.vercel.app__1_hnueuk.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767631003/portfolio/projects/event-hive/event-hive-one.vercel.app__2_immpcu.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767631771/portfolio/projects/event-hive/user/event-hive-one.vercel.app__5_xabgdg.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767631766/portfolio/projects/event-hive/user/event-hive-one.vercel.app__6_rmvwl4.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767631762/portfolio/projects/event-hive/org/event-hive-one.vercel.app__7_ivpy07.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767631758/portfolio/projects/event-hive/org/event-hive-one.vercel.app__9_g14ggw.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767631754/portfolio/projects/event-hive/org/event-hive-one.vercel.app__8_ilaxns.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767631746/portfolio/projects/event-hive/admin/event-hive-one.vercel.app__3_mkhxyp.png",
+        "https://res.cloudinary.com/zscloud/image/upload/r_40/v1767631750/portfolio/projects/event-hive/admin/event-hive-one.vercel.app__4_zzwruv.png"
+
+
+
+    ],
+    tech:["Nextjs","NextAuth","MongoDb","Tailwindcss"]
+  },
+  {
     title: "BlogZs",
     link: "https://github.com/zsimo99/blog-zs-v2",
     desc: "Blogzs is a modern, fully responsive social media platform where users create and explore meaningful blog and coding content, connect through ideas, and engage with posts through likes and comments across all devices.",

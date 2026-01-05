@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo2.svg"
 const sections = [
     { id: "home", label: "Home" },
-    { id: "aboutUs", label: "About Us" },
+    { id: "aboutMe", label: "About Me" },
     { id: "services", label: "Services" },
     { id: "portfolio", label: "Portfolio" },
     { id: "contact", label: "Contact" },

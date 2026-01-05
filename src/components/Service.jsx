@@ -24,10 +24,8 @@ const Service = ({ title, icon, desc, id }) => {
   
   return (
     <div style={{perspective:"1000px"}} >
-      <div ref={cardRef} style={{transformStyle:"preserve-3d",transform:startAnimation ? `rotateY(${-position.y}deg) rotateX(${position.x}deg)`:"none"}}
-      className={`group relative w-full max-w-xs hide  ${
-        id == 1 ? "lg:-translate-y-6" : ""
-      }`}
+      <div ref={cardRef} style={{transformStyle:"preserve-3d",transform:`${id==1 ? "translateY(-24px)" :""} ${startAnimation ? `rotateY(${-position.y}deg) rotateX(${position.x}deg)`:""}`}}
+      className={`group relative w-full max-w-xs hide `}
       onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseleave} onMouseMove={handleMouseMove}
     >
       {/* Hover glow effect */}

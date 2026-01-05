@@ -67,9 +67,9 @@ const Hero = ({ load }) => {
             </div>
             
             {/* Scroll indicator */}
-            <a href="#aboutUs" className="absolute bottom-10 md:bottom-28 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 animate-bounce cursor-pointer hover:text-[#40dcdf] transition-colors">
+            <a href="#aboutUs" className="absolute bottom-10 md:bottom-28 left-0 w-full z-20 flex flex-col items-center gap-2 animate-bounce cursor-pointer hover:text-[#40dcdf] transition-colors">
                 <span className="text-gray-400 text-sm tracking-widest">SCROLL</span>
-                <div className="w-6 h-10 rounded-full border-2 border-[#309092] flex justify-center pt-2">
+                       <div className="w-6 h-10 rounded-full border-2 border-[#309092] flex justify-center pt-2">
                     <div className="w-1.5 h-3 bg-[#40dcdf] rounded-full animate-pulse" />
                 </div>
             </a>
