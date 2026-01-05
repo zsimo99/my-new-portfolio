@@ -36,7 +36,7 @@ const Slider = ({
       {/* Left Arrow */}
       <button
         onClick={prevSlide}
-        className="absolute bottom-20 md:top-1/2 left-2  transform md:-translate-y-1/2 bg-[#309092] bg-opacity-50 text-white  flex w-10 h-10 justify-center items-center rounded-2xl"
+        className="absolute bottom-14 md:top-1/2 left-2  transform md:-translate-y-1/2 bg-[#309092] bg-opacity-50 text-white  flex w-10 h-10 justify-center items-center rounded-2xl"
       >
         &#10094;
       </button>
@@ -44,7 +44,7 @@ const Slider = ({
       {/* Right Arrow */}
       <button
         onClick={nextSlide}
-        className="absolute bottom-20 md:top-1/2 right-2 transform md:-translate-y-1/2 bg-[#309092] bg-opacity-50 text-white flex w-10 h-10 justify-center items-center rounded-2xl"
+        className="absolute bottom-14 md:top-1/2 right-2 transform md:-translate-y-1/2 bg-[#309092] bg-opacity-50 text-white flex w-10 h-10 justify-center items-center rounded-2xl"
       >
         &#10095;
       </button>

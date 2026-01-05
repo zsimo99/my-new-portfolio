@@ -19,10 +19,10 @@ const Contact = () => {
         e.preventDefault()
         const { name, email, message } = formData;
         const subject = `Portfolio Contact Form Submission from ${name}`;
-        const emailBody = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+        const emailBody = `Name: ${name}\nEmail: ${email}\n${message}`;
 
         // Compose the mailto URL
-        const mailtoURL = `mailto:mohamedprof228@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+        const mailtoURL = `mailto:mohamedzoraa100@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
 
         // Open the user's default email client with the mailto URL
         window.location.href = mailtoURL;
@@ -138,9 +138,9 @@ const Contact = () => {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                     </svg>
                                 </div>
-                                <h3 className="text-2xl font-bold text-white">Message Sent!</h3>
+                                <h3 className="text-2xl font-bold text-white">Hello</h3>
                                 <p className="text-gray-400">Thank you for reaching out! I&apos;ll get back to you as soon as possible.</p>
-                                <p className="text-gray-500 text-sm">If you encounter any issues, reach out directly at <a className="text-[#40dcdf] hover:underline" href="mailto:mohamedprof228@gmail.com">mohamedprof228@gmail.com</a></p>
+                                <p className="text-gray-500 text-sm">If you encounter any issues, reach out directly at <a className="text-[#40dcdf] hover:underline" href="mailto:mohamedzoraa100@gmail.com">mohamedzoraa100@gmail.com</a></p>
                                 <button onClick={() => setEmailSent(false)} className="btn-glow mt-4 px-8 py-3 bg-gradient-to-r from-[#309092] to-[#40dcdf] text-white font-semibold rounded-lg">
                                     Close
                                 </button>

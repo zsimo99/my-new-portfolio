@@ -43,7 +43,7 @@ const Project = ({
           {/* <img className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl" src={image} onLoad={handleImageLoad} alt={title} />*/}
           {/* <button className="absolute z-50 top-6 right-6 text-white text-4xl hover:text-[#40dcdf] transition-colors" onClick={() => setSHowSlider(false)}>&times;</button>  */}
           <div className="w-screen h-screen bg-black/50 fixed z-[100] px-6 top-0 left-0 flex items-center justify-center">
-            <div onLoad={()=>setLoading(false)} ref={sliderRef} className="flex-1 relative py-14 md:px-12 w-full  mx-auto max-w-4xl flex-grow bg-gradient-to-br h-[500px] from-[#114446]/90 to-[#032324]/90 shadow-2xl rounded-3xl shadow-[#0C5759]/50" ><Slider images={images} /></div>
+            <div onLoad={()=>setLoading(false)} ref={sliderRef} className="flex-1 relative py-14 md:px-12 w-full  mx-auto max-w-4xl flex-grow bg-gradient-to-br h-3/4 from-[#114446]/90 to-[#032324]/90 shadow-2xl rounded-3xl shadow-[#0C5759]/50" ><Slider images={images} /></div>
           </div> 
         </div>
       )}
