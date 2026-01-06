@@ -1,5 +1,3 @@
-import arrow from "../assets/arrow-right.svg";
-import github from "../assets/github.png";
 import { useCallback, useEffect, useRef, useState } from "react";
 import Slider from "./Slider";
 
@@ -72,7 +70,7 @@ const Project = ({
             >
               <img
                 className="h-8 opacity-80 group-hover/link:opacity-100 transition-opacity"
-                src={github}
+                src="https://res.cloudinary.com/zscloud/image/upload/v1767701604/portfolio/github_xlxrpe.png"
                 alt="GitHub"
               />
               <span className="text-gray-400 group-hover/link:text-[#40dcdf] font-medium transition-colors">
@@ -87,7 +85,7 @@ const Project = ({
               href={live}
               className="flex gap-3 items-center px-4 py-2 rounded-lg bg-gradient-to-r from-[#309092] to-[#40dcdf] hover:shadow-lg hover:shadow-[#30909040] transition-all duration-300 group/live"
             >
-              <img className="h-6 brightness-0 invert" src={arrow} alt="" />
+              <img className="h-6 brightness-0 invert" src="https://res.cloudinary.com/zscloud/image/upload/v1767701660/portfolio/arrow-right_vuctjt.svg" alt="" />
               <span className="text-white font-semibold">Live Demo</span>
             </a>
           )}

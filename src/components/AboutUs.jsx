@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 // import image from "../assets/about_us 1.svg";
-import video from "../assets/video/Video.mp4";
 import { DefaultPlayer as Video } from "react-html5video";
 import "react-html5video/dist/styles.css";
 
@@ -22,7 +21,7 @@ const AboutUs = () => {
             <div className="absolute -inset-4 bg-gradient-to-r from-[#309092] to-[#40dcdf] rounded-lg opacity-30 group-hover:opacity-50 blur transition-opacity duration-500" />
             <div className="relative border-4 border-[#309092] rounded-lg max-w-md xl:max-w-lg hide duration-700 transition-all overflow-hidden">
               <Video>
-                <source src={video} type="video/mp4" />
+                <source src="https://res.cloudinary.com/zscloud/video/upload/v1767701253/portfolio/video/Video_bpbr9g.mp4" type="video/mp4" />
               </Video>
             </div>
           </div>

@@ -1,5 +1,4 @@
 import { social } from "../constants"
-import logo from "../assets/logo.png"
 import { useState } from "react";
 
 const Contact = () => {
@@ -70,7 +69,7 @@ const Contact = () => {
                                 
                                 {/* Logo & name */}
                                 <div className="flex flex-col items-center">
-                                    <img className="w-24 opacity-80" src={logo} alt="Logo" />
+                                    <img className="w-24 opacity-80" src="https://res.cloudinary.com/zscloud/image/upload/v1767701616/portfolio/logo_nyf6b6.png" alt="Logo" />
                                     <p className="text-xl font-bold mt-2"><span className="gradient-text">Mohamed</span> Zoraa</p>
                                 </div>
                             </div>

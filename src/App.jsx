@@ -2,7 +2,6 @@
 import { useEffect, useRef, useState } from "react"
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom"
 import Loader from "./components/Loader"
-import logo from "./assets/logo.png"
 import Home from "./pages/Home"
 import Works from "./pages/Works"
 
@@ -69,7 +68,7 @@ function App() {
 
   return (
     <>
-      <Loader load={load} loader={loader} logo={logo} />
+      <Loader load={load} loader={loader}  />
       <Router>
         <Routes>
           <Route path="/" element={<Home section={section} setSection={setSection} show={show} setShow={setShow} load={load} setLoad={setLoad} />} />

@@ -1,5 +1,5 @@
 // eslint-disable-next-line react/prop-types
-const Loader = ({ loader, logo, load }) => {
+const Loader = ({ loader, load }) => {
     return (
         <div
             ref={loader}
@@ -15,7 +15,7 @@ const Loader = ({ loader, logo, load }) => {
                 {/* Logo with glow */}
                 <div className="relative">
                     <div className="absolute inset-0 bg-[#40dcdf] rounded-full filter blur-3xl opacity-30 animate-pulse" />
-                    <img className="relative w-28 md:w-36 rounded-full border-2 border-[#40dcdf50] p-3" src={logo} alt="Logo" />
+                    <img className="relative w-28 md:w-36 rounded-full border-2 border-[#40dcdf50] p-3" src="https://res.cloudinary.com/zscloud/image/upload/v1767701526/portfolio/logo_a08r5v.svg" alt="Logo" />
                 </div>
                 
                 {/* Spinner */}

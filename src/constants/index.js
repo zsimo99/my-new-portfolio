@@ -1,14 +1,4 @@
-// import leon from "../assets/projectsComp/leon-min.png"
-// import kasper from "../assets/projectsComp/kasper-min.png"
-// import GameStore from "../assets/projectsComp/gameStore-min.png"
-// import DynamicBlend from "../assets/projectsComp/DynamicBlend-min.png"
-// import githubFinder from "../assets/projectsComp/githubFinder-min.png"
-// import houseMarket from "../assets/projectsComp/houseMarket-min.png"
-// import Promptobia from "../assets/projectsComp/Promptobia-min.png"
-// import dalle from "../assets/projectsComp/dalle-min.png"
-// import todozs from "../assets/projectsComp/todozs-min.png"
-// import rose from "../assets/projectsComp/rose-min.png"
-// import blogzs from "../assets/projectsComp/blogzs-min.png"
+
 
 // export const projects = [
 
@@ -335,50 +325,45 @@ export const projects = [
 
 
 
-import ui from "../assets/icons/ui.svg"
-import wp from "../assets/icons/wp.svg"
-import anim from "../assets/icons/anim.svg"
+
 
 
 export const services = [
     {
-        icon: ui,
-        title: "UI/UX Design",
-        desc: "Creating beautiful and functional websites tailored to your needs."
+        icon: "https://res.cloudinary.com/zscloud/image/upload/v1767702115/portfolio/icons/ui_slynjg.svg",
+        title: "Custom Web Development",
+        desc: "I build custom, responsive web applications tailored to any idea or business need, using modern technologies and clean, scalable code."
     },
     {
-        icon: wp,
-        title: "Web Application",
-        desc: "Designing intuitive and efficient web applications for enhanced user experiences."
+        icon: "https://res.cloudinary.com/zscloud/image/upload/v1767702117/portfolio/icons/wp_tryffz.svg",
+        title: "UI Implementation & Website Customization",
+        desc: "I turn designs into fully responsive websites and customize existing sites by improving layout, styling, fonts, and overall user experience."
     },
     {
-        icon: anim,
-        title: "2D Animation",
-        desc: "Bringing stories to life with captivating 2D animations."
+        icon: "https://res.cloudinary.com/zscloud/image/upload/v1767702110/portfolio/icons/anim_iqqmh7.svg",
+        title: "API Integration & Feature Development",
+        desc: "I add new features and integrate third-party APIs into web applications to make them more dynamic, functional, and efficient."
     },
 ]
-import aro from "../assets/icons/@.svg"
-import fi from "../assets/icons/fi.svg"
-import up from "../assets/icons/up.svg"
-// import inn from "../assets/icons/in.svg"
+
 export const social = [
     {
-        icon: aro,
+        icon: "https://res.cloudinary.com/zscloud/image/upload/v1767702108/portfolio/icons/grgsflpma3wslz4ys9v5.svg",
         text: "Email",
         link: "mailto:mohamedzoraa100@gmail.com"
     },
     {
-        icon: fi,
+        icon: "https://res.cloudinary.com/zscloud/image/upload/v1767702112/portfolio/icons/fi_qurkul.svg",
         text: "Fiver",
         link: "https://www.fiverr.com/mohamedzoraa"
     },
     {
-        icon: up,
+        icon: "https://res.cloudinary.com/zscloud/image/upload/v1767702117/portfolio/icons/up_fdy00n.svg",
         text: "Upwork",
         link: "https://www.upwork.com/freelancers/~01207a869afcfb3c81"
     },
     // {
-    //     icon: inn,
+    //     icon: "https://res.cloudinary.com/zscloud/image/upload/v1767702113/portfolio/icons/in_qdsu56.svg",
     //     text: "inn",
     //     link: "#"
     // },

@@ -1,6 +1,5 @@
 import { useSearchParams, useNavigate } from "react-router-dom"
 import { useEffect } from "react"
-import logo from "../assets/logo2.svg"
 import Projects from "../components/Projects";
 
 
@@ -34,7 +33,7 @@ const Works = ({ load, setLoad }) => {
                             </svg>
                         </button>
                         <button onClick={goToHome} className="flex gap-3 items-center cursor-pointer group">
-                            <img className="w-12 rounded-full border-[#309092] border-2 p-1 transition-all duration-300 group-hover:border-[#40dcdf]" src={logo} alt="" />
+                            <img className="w-12 rounded-full border-[#309092] border-2 p-1 transition-all duration-300 group-hover:border-[#40dcdf]" src="https://res.cloudinary.com/zscloud/image/upload/v1767701395/portfolio/logo2_szy2fr.svg" alt="" />
                             <p className="text-xl font-bold tracking-tight"><span className="gradient-text">Mohamed</span> Zoraa</p>
                         </button>
                     </div>

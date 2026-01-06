@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import heroBg from "../assets/pexels-daniel-eliashevsky-6942359.jpg"
 
 const text = ["I'm Mohamed", "I'm Zakaria", "We Are ZMT Agency"]
 
@@ -24,7 +23,7 @@ const Hero = ({ load }) => {
         <section id="home" className="min-h-screen relative flex items-center">
             {/* Background */}
             <div className="w-full h-full absolute z-10 top-0 left-0">
-                <img className="h-full w-full object-cover object-center" src={heroBg} alt="heroBg" />
+                <img className="h-full w-full object-cover object-center" src="https://res.cloudinary.com/zscloud/image/upload/v1767701279/portfolio/pexels-daniel-eliashevsky-6942359_f4cuxt.jpg" alt="heroBg" />
                 <div className="bg-gradient-to-br from-[#000000cc] via-[#02151680] to-[#02151660] absolute top-0 left-0 w-full h-full" />
             </div>
             

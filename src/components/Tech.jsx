@@ -1,11 +1,3 @@
-import html from "../assets/html.png"
-import css from "../assets/css.png"
-import js from "../assets/js.png"
-import mongo from "../assets/mongodb.png"
-import next from "../assets/nextjs.png"
-import node from "../assets/node-js.png"
-import react from "../assets/react.png"
-import wordpress from "../assets/wordpress.png"
 import { useEffect } from "react"
 
 
@@ -53,22 +45,22 @@ const Tech = () => {
                     <div className="absolute top-0 right-0 w-1/4 h-full bg-gradient-to-l from-[#0d3d3f] to-transparent z-10 pointer-events-none" />
                     
                     <div className="slider whitespace-nowrap flex items-center">
-                        <img className="image-tech" src={html} alt="HTML" />
-                        <img className="image-tech" src={css} alt="CSS" />
-                        <img className="image-tech" src={js} alt="JavaScript" />
-                        <img className="image-tech" src={mongo} alt="MongoDB" />
-                        <img className="image-tech" src={wordpress} alt="WordPress" />
-                        <img className="image-tech" src={next} alt="Next.js" />
-                        <img className="image-tech" src={react} alt="React" />
-                        <img className="image-tech" src={node} alt="Node.js" />
-                        <img className="image-tech" src={html} alt="HTML" />
-                        <img className="image-tech" src={css} alt="CSS" />
-                        <img className="image-tech" src={js} alt="JavaScript" />
-                        <img className="image-tech" src={mongo} alt="MongoDB" />
-                        <img className="image-tech" src={wordpress} alt="WordPress" />
-                        <img className="image-tech" src={next} alt="Next.js" />
-                        <img className="image-tech" src={react} alt="React" />
-                        <img className="image-tech" src={node} alt="Node.js" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701612/portfolio/html_ku5cos.png" alt="HTML" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701603/portfolio/css_p2dpxm.png" alt="CSS" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701611/portfolio/js_b68i7b.png" alt="JavaScript" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701617/portfolio/mongodb_xmcvjy.png" alt="MongoDB" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701657/portfolio/wordpress_gfsdgw.png" alt="WordPress" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701618/portfolio/nextjs_qzgif2.png" alt="Next.js" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701622/portfolio/react_duvt7i.png" alt="React" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701619/portfolio/node-js_j4ludm.png" alt="Node.js" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701612/portfolio/html_ku5cos.png" alt="HTML" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701603/portfolio/css_p2dpxm.png" alt="CSS" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701611/portfolio/js_b68i7b.png" alt="JavaScript" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701617/portfolio/mongodb_xmcvjy.png" alt="MongoDB" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701657/portfolio/wordpress_gfsdgw.png" alt="WordPress" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701618/portfolio/nextjs_qzgif2.png" alt="Next.js" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701622/portfolio/react_duvt7i.png" alt="React" />
+                        <img className="image-tech" src="https://res.cloudinary.com/zscloud/image/upload/v1767701619/portfolio/node-js_j4ludm.png" alt="Node.js" />
                     </div>
                 </div>
             </div>

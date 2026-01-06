@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo2.svg"
 const sections = [
     { id: "home", label: "Home" },
     { id: "aboutMe", label: "About Me" },
@@ -16,7 +15,7 @@ const Header = ({ activeSection, show, setShow }) => {
         <header className="top-0 duration-500 transition-all left-0 fixed w-full z-[999] text-white backdrop-blur-md bg-[#02151680] border-b border-[#30909220] shadow-lg shadow-[#00000040] py-4 px-3 flex items-center">
             <div className="container mx-auto px-4 flex justify-between items-center">
                 <Link to="/" className="flex gap-3 items-center cursor-pointer group">
-                    <img className="w-12 rounded-full border-[#309092] border-2 p-1 transition-all duration-300 group-hover:border-[#40dcdf] group-hover:scale-105" src={logo} alt="" />
+                    <img className="w-12 rounded-full border-[#309092] border-2 p-1 transition-all duration-300 group-hover:border-[#40dcdf] group-hover:scale-105" src="https://res.cloudinary.com/zscloud/image/upload/v1767701395/portfolio/logo2_szy2fr.svg" alt="" />
                     <p className="text-xl font-bold tracking-tight"><span className="gradient-text">Mohamed</span> Zoraa</p>
                 </Link>
                 <ul className={`flex gap-6 text-base lg:text-lg text-gray-200 font-medium max-lg:fixed max-lg:flex-col max-lg:backdrop-blur-xl max-lg:bg-[#02151695] max-lg:border-l max-lg:border-[#30909230] max-lg:w-[220px] top-0 max-lg:h-screen transition-all duration-400 ease-out max-lg:text-center max-lg:pt-20 max-lg:gap-2 ${!show ? "max-lg:right-[-220px]" : "max-lg:right-0 max-lg:shadow-2xl"}`}>
