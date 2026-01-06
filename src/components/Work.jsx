@@ -32,12 +32,6 @@ const Work = ({ setLoad }) => {
                     >
                         UI/UX Design
                     </li>
-                    <li 
-                        className={`services cursor-pointer ${service === "anim" ? "before:w-full text-[#40dcdf]" : ""}`} 
-                        onClick={() => setService("anim")}
-                    >
-                        2D Animation
-                    </li>
                 </ul>
             </div>
             
